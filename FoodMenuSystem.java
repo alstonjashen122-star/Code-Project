@@ -41,3 +41,15 @@ public class FoodMenuSystem {
         menu[menuCount++] = new Food(3, "Pizza", 3.49);
         menu[menuCount++] = new Food(4, "Nachos", 4.49);
         menu[menuCount++] = new Food(5, "Drink", 1.99);
+    }
+
+    public static void main(String[] args) {
+        loadMenu();
+
+        System.out.println("Menu loaded successfully!");
+
+        for (int i = 0; i < menuCount; i++) {
+            System.out.println(menu[i].id + " - " + menu[i].name + " - $" + menu[i].price);
+        }
+    }
+}
