@@ -99,7 +99,7 @@ public class FoodMenuSystem {
     }
 
     // Checkout
-    public static void checkout() {
+    public static void checkout() { 
         if (orderCount == 0) {
             System.out.println("❌ No items to checkout.");
             return;
