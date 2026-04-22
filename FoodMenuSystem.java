@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Food {
     int id;
-    String name;
+    String name;    
     double price;
 
     Food(int id, String name, double price) {
@@ -13,7 +13,7 @@ class Food {
 }
 
 class Order {
-    int orderId;
+    int orderId;        
     String itemName;
     double price;
     int quantity;
