@@ -34,6 +34,3 @@ The system uses arrays to store menu items and customer orders. Users interact w
 ## Members
 Asi Mbah
 Jashen Alston
-
-* Your Name
-* Partner Name
